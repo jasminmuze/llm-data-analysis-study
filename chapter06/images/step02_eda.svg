@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+<rect width="1200" height="760" fill="#fff"/>
+<style>text{font-family:Arial,"Malgun Gothic",sans-serif;fill:#213547}.title{font-size:26px;font-weight:700}.head{font-size:17px;font-weight:700}.label{font-size:14px}.small{font-size:12px;fill:#536473}</style>
+<text x="40" y="42" class="title">Chapter 06 EDA | completed 주문 기준</text>
+<text x="40" y="82" class="head">카테고리별 금액 (원)</text>
+<text x="225" y="123" text-anchor="end" class="label">패션</text>
+<rect x="245" y="105" width="650.0" height="23" rx="4" fill="#277da1"/>
+<text x="904.0" y="122" class="label">32,940,000</text>
+<text x="225" y="157" text-anchor="end" class="label">식품</text>
+<rect x="245" y="139" width="494.0" height="23" rx="4" fill="#277da1"/>
+<text x="748.0" y="156" class="label">25,035,000</text>
+<text x="225" y="191" text-anchor="end" class="label">전자기기</text>
+<rect x="245" y="173" width="424.0" height="23" rx="4" fill="#277da1"/>
+<text x="678.0" y="190" class="label">21,485,000</text>
+<text x="225" y="225" text-anchor="end" class="label">도서</text>
+<rect x="245" y="207" width="348.5" height="23" rx="4" fill="#277da1"/>
+<text x="602.5" y="224" class="label">17,663,000</text>
+<text x="225" y="259" text-anchor="end" class="label">뷰티</text>
+<rect x="245" y="241" width="337.5" height="23" rx="4" fill="#277da1"/>
+<text x="591.5" y="258" class="label">17,103,000</text>
+<text x="225" y="293" text-anchor="end" class="label">스포츠</text>
+<rect x="245" y="275" width="261.2" height="23" rx="4" fill="#277da1"/>
+<text x="515.2" y="292" class="label">13,237,000</text>
+<text x="225" y="327" text-anchor="end" class="label">생활용품</text>
+<rect x="245" y="309" width="138.1" height="23" rx="4" fill="#277da1"/>
+<text x="392.1" y="326" class="label">7,001,000</text>
+<text x="225" y="361" text-anchor="end" class="label">미매칭 상품</text>
+<rect x="245" y="343" width="79.2" height="23" rx="4" fill="#d17d00"/>
+<text x="333.2" y="360" class="label">4,015,000</text>
+<text x="40" y="412" class="head">월별 금액 (유효한 주문일, 원)</text>
+<text x="40" y="438" class="small">날짜 변환 실패 2건의 주문 금액 1,903,000원은 검증 합계에 포함해 별도 범주로 보존했습니다.</text>
+<polyline fill="none" stroke="#277da1" stroke-width="3" points="90.0,564.6 163.6,567.0 237.1,616.0 310.7,527.5 384.3,564.3 457.9,576.4 531.4,581.8 605.0,587.2 678.6,592.5 752.1,541.7 825.7,535.1 899.3,546.8 972.9,571.8 1046.4,475.0 1120.0,669.0"/>
+<circle cx="90.0" cy="564.6" r="4" fill="#d17d00"/>
+<text x="90.0" y="700" text-anchor="middle" class="small">25-07</text>
+<text x="90.0" y="556.6" text-anchor="middle" class="small">9.6</text>
+<circle cx="163.6" cy="567.0" r="4" fill="#d17d00"/>
+<text x="163.6" y="559.0" text-anchor="middle" class="small">9.4</text>
+<circle cx="237.1" cy="616.0" r="4" fill="#d17d00"/>
+<text x="237.1" y="700" text-anchor="middle" class="small">25-09</text>
+<text x="237.1" y="608.0" text-anchor="middle" class="small">5.3</text>
+<circle cx="310.7" cy="527.5" r="4" fill="#d17d00"/>
+<text x="310.7" y="519.5" text-anchor="middle" class="small">12.6</text>
+<circle cx="384.3" cy="564.3" r="4" fill="#d17d00"/>
+<text x="384.3" y="700" text-anchor="middle" class="small">25-11</text>
+<text x="384.3" y="556.3" text-anchor="middle" class="small">9.6</text>
+<circle cx="457.9" cy="576.4" r="4" fill="#d17d00"/>
+<text x="457.9" y="568.4" text-anchor="middle" class="small">8.6</text>
+<circle cx="531.4" cy="581.8" r="4" fill="#d17d00"/>
+<text x="531.4" y="700" text-anchor="middle" class="small">26-01</text>
+<text x="531.4" y="573.8" text-anchor="middle" class="small">8.1</text>
+<circle cx="605.0" cy="587.2" r="4" fill="#d17d00"/>
+<text x="605.0" y="579.2" text-anchor="middle" class="small">7.7</text>
+<circle cx="678.6" cy="592.5" r="4" fill="#d17d00"/>
+<text x="678.6" y="700" text-anchor="middle" class="small">26-03</text>
+<text x="678.6" y="584.5" text-anchor="middle" class="small">7.2</text>
+<circle cx="752.1" cy="541.7" r="4" fill="#d17d00"/>
+<text x="752.1" y="533.7" text-anchor="middle" class="small">11.5</text>
+<circle cx="825.7" cy="535.1" r="4" fill="#d17d00"/>
+<text x="825.7" y="700" text-anchor="middle" class="small">26-05</text>
+<text x="825.7" y="527.1" text-anchor="middle" class="small">12.0</text>
+<circle cx="899.3" cy="546.8" r="4" fill="#d17d00"/>
+<text x="899.3" y="538.8" text-anchor="middle" class="small">11.0</text>
+<circle cx="972.9" cy="571.8" r="4" fill="#d17d00"/>
+<text x="972.9" y="700" text-anchor="middle" class="small">26-07</text>
+<text x="972.9" y="563.8" text-anchor="middle" class="small">9.0</text>
+<circle cx="1046.4" cy="475.0" r="4" fill="#d17d00"/>
+<text x="1046.4" y="467.0" text-anchor="middle" class="small">17.0</text>
+<circle cx="1120.0" cy="669.0" r="4" fill="#d17d00"/>
+<text x="1120.0" y="700" text-anchor="middle" class="small">27-01</text>
+<text x="1120.0" y="661.0" text-anchor="middle" class="small">0.9</text>
+<line x1="90" y1="680" x2="1120" y2="680" stroke="#9aa8b4"/>
+<text x="40" y="738" class="small">단위: 백만원 · 카테고리별·월별 합계는 completed 원본 금액과 일치</text>
+</svg>

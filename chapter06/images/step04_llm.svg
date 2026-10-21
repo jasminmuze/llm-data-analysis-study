@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="520" viewBox="0 0 1100 520">
+<rect width="100%" height="100%" fill="#fff"/>
+<style>text{font-family:Arial,"Malgun Gothic",sans-serif;fill:#213547}.title{font-size:25px;font-weight:700}.head{font-size:18px;font-weight:700}.body{font-size:15px}</style>
+<text x="40" y="48" class="title">LLM 질문 확장 검토 (개인 이름·행 단위 자료 미사용)</text>
+<rect x="40" y="80" width="480" height="165" rx="12" fill="#eef5f8" stroke="#9bb6c5"/>
+<text x="65" y="115" class="head">Prompt</text><text x="65" y="150" class="body">“쿠폰 캠페인이 고객의 반복 구매를 늘렸는가?”</text>
+<text x="65" y="184" class="body">제공: 데이터셋과 컬럼 목록만</text><text x="65" y="214" class="body">요청: 답 가능 여부와 대체 질문·검증 방법</text>
+<rect x="580" y="80" width="480" height="165" rx="12" fill="#f5f2e9" stroke="#c8b98e"/>
+<text x="605" y="115" class="head">LLM 제안</text><text x="605" y="150" class="body">캠페인 노출·쿠폰 사용 필드가 없어</text>
+<text x="605" y="178" class="body">효과를 직접 측정할 수 없음</text><text x="605" y="212" class="body">대체: 가입 코호트별 첫 90일 구매 비교</text>
+<rect x="40" y="285" width="1020" height="185" rx="12" fill="#edf6ef" stroke="#9bb9a2"/>
+<text x="65" y="325" class="head">사람의 검토와 수정</text>
+<text x="65" y="363" class="body">고객 ID·가입일·주문일·completed 상태·상세 금액 컬럼은 있어 대체 계산은 가능</text>
+<text x="65" y="396" class="body">날짜 변환과 고객 키를 확인하고, 가입 후 90일 관측이 가능한 고객만 포함하도록 제한</text>
+<text x="65" y="429" class="body">캠페인 자료가 없으면 마케팅 효과나 인과관계로 해석하지 않음</text></svg>

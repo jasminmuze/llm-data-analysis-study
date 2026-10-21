@@ -1,0 +1,4 @@
+question,result_table,next_question
+도시별 고객 수와 completed 구매 금액은 어떻게 다른가?,city_customer_sales,도시 간 금액 차이는 고객 수와 고객당 금액 중 무엇과 함께 움직이는가?
+상품 수가 많은 카테고리가 completed 매출도 높은가?,category_comparison,카테고리 매출 차이는 판매 수량과 상품 가격 중 무엇과 함께 움직이는가?
+월별 completed 매출과 주문당 평균 금액은 어떻게 변하는가?,monthly_sales,월별 변화는 주문 수·평균 주문 금액·카테고리 구성 중 무엇과 함께 나타나는가?
