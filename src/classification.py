@@ -370,11 +370,11 @@ def build_classification_dataset(
     ).dt.days
 
     negative_days = model_data["days_since_signup"].lt(0)
-    if negative_days.any():
-        raise ValueError(
-            "signup_date가 order_date보다 늦은 주문이 있습니다: "
-            f"{int(negative_days.sum())}건"
-        )
+    negative_signup_count = int(negative_days.sum())
+    if negative_signup_count:
+        # 가입일이 주문일보다 늦어 계산할 수 없으므로 이 선택형 feature는 제외합니다.
+        # 주문 행 자체는 삭제하지 않고, data_quality_checks에 건수를 남깁니다.
+        model_data["days_since_signup"] = np.nan
 
     numeric_features = [
         column
@@ -406,6 +406,7 @@ def build_classification_dataset(
                 "excluded_status_rows",
                 "line_total_mismatch",
                 "negative_days_since_signup",
+                "days_since_signup_feature_excluded",
                 "missing_order_item_features",
                 "missing_customer_match",
             ],
@@ -415,7 +416,8 @@ def build_classification_dataset(
                 int(model_data[TARGET_COLUMN].eq(1).sum()),
                 excluded_rows,
                 0,
-                0,
+                negative_signup_count,
+                int(negative_signup_count > 0),
                 order_merge_check["unmatched_count"],
                 customer_merge_check["unmatched_count"],
             ],
